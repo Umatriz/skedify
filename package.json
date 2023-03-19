@@ -1,0 +1,13 @@
+{
+  "name": "tunder-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Umatriz",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "concurrently \"cd client && yarn dev\" \"cd server && yarn start:dev\""
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
